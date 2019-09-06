@@ -1,3 +1,3 @@
-
-export let color = "Yellow";
+let color = "Yellow";
 console.log(color);
+module.exports = color;
