@@ -1,5 +1,5 @@
 const color = require("./app.js")
-test("declare and console.log a variable", ()=>{
+test("print  a variable", ()=>{
 
     expect(color).toBeDefined();
     expect(color).toBe("red");
