@@ -5,6 +5,8 @@ const myVar2 = require("./app.js")
 //smth to do with the way I imported and exported two things.
 // Doesnt work with a coma
 
+//still need to figure out the console thing
+
 describe("string concatenation", () => {
     it("both variables should be defined", ()=>{
         expect(myVar1).toBeDefined();
