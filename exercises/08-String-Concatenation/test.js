@@ -11,10 +11,13 @@ describe("string concatenation", () => {
     it("both variables should be defined", ()=>{
         expect(myVar1).toBeDefined();
         expect(myVar2).toBeDefined();
+        //what if they want to put this in onw string
     })
     it("should have string value", ()=>{
         expect(typeof myVar1).toBe("string")
         expect(typeof myVar2).toBe("string")
+        //How do I predict if they want to put a space in first
+        //or second string or maybe separately
     })
     it("should be concatenated", ()=>{
         expect(myVar1+myVar2).toBe("Hello World ")
