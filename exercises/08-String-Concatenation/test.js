@@ -1,5 +1,5 @@
-const myVar1 = require("./app.js")
-const myVar2 = require("./app.js")
+const {myVar1, myVar2 }= require("./app.js")
+//const myVar2 = require("./app.js")
 //for some reason instead of expected output "Hello World"
 //it outputs "Hello Hello" or "World World" and I believe it has
 //smth to do with the way I imported and exported two things.
