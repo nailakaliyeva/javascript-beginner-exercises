@@ -1,7 +1,8 @@
 const generateRandom = require("./app.js")
+// global.Math.random=jest.fn(()=>{return Math.random()})
 test("Create a function that generates random number", ()=>{
     const random = generateRandom();
-
+    // expect(Math.random).toHaveBeenCalled()
     // const spy = jest.spyOn(global.Math, 'random');
     // expect(spy).toHaveBeenCalled();
 
